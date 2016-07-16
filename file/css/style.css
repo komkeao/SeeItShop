@@ -1,0 +1,76 @@
+﻿@font-face {
+    font-family: 'cool_jazz';
+    src: url('font/cooljazz-webfont.eot');
+    src: url('font/cooljazz-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cooljazz-webfont.woff2') format('woff2'),
+         url('font/cooljazz-webfont.woff') format('woff'),
+         url('font/cooljazz-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-color:#E95D13;
+	font-family: 'cool_jazz';
+	/*#a73B24 สีอิฐ*/
+	
+	}
+#header{
+font-size:120%;
+	}
+#footer{
+	margin-top:-5px;
+	}
+a:link{
+	color:white;}
+a:visited{
+	color:black;
+	text-shadow:5px 5px #ff0000}
+#user{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	width:200px;
+	height:200px;
+	background-color:rgba(16,255,6,0.37);
+	text-align:center;
+	z-index:5;
+	
+	}
+	#conL{
+		position:relative;
+		left:3%;
+		margin:5px;
+		position:relative;
+		background-color:rgba(255,255,255,0.2);
+		padding-bottom:9999px;
+		margin-bottom:-9999px;
+		border-radius:10px;
+	
+		}
+	#conR{
+		position:relative;
+		left:3%;
+		margin:5px;
+		position:relative;	
+		background-color:rgba(255,255,255,0.2);
+		display:table-cell;
+		padding-bottom:9999px; 
+		margin-bottom:-9999px;
+		border-radius:10px;
+		}
+	#conS{
+		position:relative;
+		left:%;
+		margin:0px;
+		position:relative;	
+		background-color:rgba(255,255,255,0.2);
+		border-radius:5px;
+		
+		}
+.thinking { background: white url("../image/status/checking.gif") no-repeat; background-position:right;   }
+.approved { background: white url("../image/status/true.gif") no-repeat; background-position:right;   }
+.denied { background: #FF8282 url("../image/status/false.gif") no-repeat; background-position:right;   }
+div.img-resize img {
+width: auto;
+height: 120px;
+}
